@@ -1,0 +1,403 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* HERO SECTION: FIRST LARGE SECTION */
+.hero{
+    flex-basis: 800px;
+    background-image: url(assets/image-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HERO components: HEADER and HERO-IMAGE */
+header{
+    flex-basis: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 34px 48px 0px 40px;
+}
+
+.hero-image{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 331.98px;
+}
+
+/* HEADER components */
+
+header img.logo{
+    width: 188px;
+    height: 40px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    list-style: none;
+}
+
+header li{
+    padding-left: 47px;
+    flex-grow: 1;
+}
+
+li a{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+}
+
+header li a{
+    color: #FFFFFF;
+}
+
+li.btn a{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #24303E;
+}
+
+.btn{
+    background-color: #FFFFFF;
+    border-radius: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 140px;
+    height: 56px;
+    margin-left: 47px;
+}
+
+/* HERO-IMAGE components */
+div.hero-image h1{
+    padding-top: 105px;
+    padding-bottom: 96.54px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 56px;
+    color: #FFFFFF;
+}
+
+/*  */
+/*  */
+/*  */
+
+
+/* CARD SECTION: SECOND LARGE SECTION */
+.card{
+    flex-basis: 40vw;
+    background-color:#FFFFFF;
+    display: flex;
+}
+
+/* CARD components: TEXT-CARD ITEM e TRANSFORM ITEM */
+.item{
+    min-width: 50%;
+}
+
+.text-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transform{
+    background-image: url(assets/image-transform.jpg);
+    background-size: cover;
+}
+
+.stand-out{
+    background-image: url(assets/image-stand-out.jpg);
+    background-size: cover;
+}
+
+.graphic-design{
+    background-image: url(assets/image-graphic-design.jpg);
+    background-size: cover;
+}
+
+.photograph{
+    background-image: url(assets/image-photography.jpg);
+    background-size: cover;
+}
+
+/* TEXT-CARD ITEM components: INSIDE-CARD */
+.inside-card{
+    width: 445px;
+    height: 285px;
+    padding-right: 50px;
+    background-color: #FFFFFF;
+}
+
+.inside-card-2{
+    padding-right: 20px;
+}
+
+/* INSIDE-CARD components */
+
+h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+p, span{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+}
+
+.inside-card h1{
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.285714px;
+    color: #24303E;
+    padding-bottom: 32px;
+}
+
+.inside-card p{
+    color: #808397;
+    line-height: 30px;
+    letter-spacing: -0.128571px;
+    padding-bottom: 40px;
+}
+
+.inside-card a{
+    text-decoration: none;
+    color: #24303E;
+    letter-spacing: 1px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.ultimo-item{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.content{
+    flex-basis: 339px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.content h1{
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: -0.2px;
+    padding-bottom: 27px;
+}
+
+.graphic-design h1{
+    color: #24554A;
+}
+
+.photograph h1{
+    color: #24554A;
+}
+
+.content p{
+    font-size: 16px;
+    line-height: 27px;
+    letter-spacing: -0.114286px;
+}
+
+.graphic-design p{
+    color: #19536C;
+}
+
+.photograph p{
+    color: #3E7467;
+}
+
+
+
+
+
+/* TESTIMONIALS: THIRD MAJOR SECTION */
+.testimonials{
+    flex-basis: 777px;
+    background-color: #FFFCF8;;
+    padding: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title, .clients{
+    flex-grow: 1;
+}
+
+.title{
+    flex-basis: 25px;
+    text-transform: uppercase;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 5px;   
+    color: #A7AAAD;
+    margin-bottom: 100px;
+}
+
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client{
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+div.thomas p{
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.client img{
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+}
+
+.client p{
+    padding: 58px 0 69px;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.128571px;
+    color: #5B636D;
+}
+
+.client h1{
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.128571px;
+    color: #24303E;
+}
+
+.client span{
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: -0.1px;
+    color: #A7AAAD;
+}
+
+
+
+
+
+/* FOOTER: LAST LARGE SECTION */
+footer{
+    flex-basis: 797px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.footer-img{
+    flex-basis: 447px;
+    display: flex;
+}
+
+.footer-text{
+    flex-basis: 100px;
+    background: #90D4C6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 93px;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.img-1{
+    background-image: url(assets/image-gallery-milkbottles.jpg);
+    background-size: cover;
+}
+
+.img-2{
+    background-image: url(assets/image-gallery-orange.jpg);
+    background-size: cover;
+}
+
+.img-3{
+    background-image: url(assets/image-gallery-cone.jpg);
+    background-size: cover;
+}
+
+.img-4{
+    background-image: url(assets/image-gallery-sugarcubes.jpg);
+    background-size: cover;
+}
+
+img.logo-footer{
+    flex-basis: 33px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 152px;
+
+}
+
+.footer-links ul{
+    height: 297px;
+}
+
+.social-media li{
+    padding-right: 28px;
+    padding-left: 28px;
+}
+
+footer li a{
+    color: #458D7E;
+    text-align: center;
+}
+
+.social-media img{
+    height: 20px;
+    width: 20px;
+}
+
+ul.social-media{
+    padding-bottom: 70px;
+}
+
+.center-element{
+    padding-left: 57px;
+    padding-right: 57px;
+}
